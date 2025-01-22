@@ -80,4 +80,22 @@
 // console.log(topList.previousElementSibling); // show sibling element
 // console.log(topList.nextElementSibling); // show sibling element
 
+// Events
+
+// const toppings = document.getElementsByClassName("topping");
+
+// function showClic(topping) {
+//     console.log(topping.target.innerText);   // target is the objetive or element 
+// }
+
+// for (const top of toppings) {
+//     // console.log(top); // go throuhg collection
+//     top.addEventListener("click", showClic); // listen event and execute function
+// }
+// toppings.addEventListener("click", showClic);
+
+// Arrow function
+// top.addEventListener("click", (topping) => {
+//     console.log(topping.target.innerText);   // target is the objetive or element 
+// });
 

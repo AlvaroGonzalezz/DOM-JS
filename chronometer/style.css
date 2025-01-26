@@ -13,6 +13,9 @@ body {
     height: 100vh;
 }
 .container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(240, 248, 255, 0.897);
@@ -22,4 +25,24 @@ body {
 .container h1{
     width: 100%;
     font-size: 50px;
+}
+
+button {
+    border: none;
+}
+.buttons .pause {
+    background-color: rgb(251, 239, 131);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttons .reset {
+    background-color: rgb(251, 149, 131);
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+button :hover{
+    background-color: rgb(255, 0, 0) !important;
 }

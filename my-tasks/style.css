@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #171717;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    width: 50%;
+
+}
+
+.container h1{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 19px;
+}
+.container input{
+    width: 100%;
+    padding: 12px;
+    font-size: 19px;
+    border: none;
+    border-radius: 15px;
+}
+
+.container .create {
+    border: none;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 19px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 50%;
+    color: aliceblue;
+    background-color: rgb(201, 87, 52);
+    margin-bottom: 40px;
+}
+.container .create:hover{
+    background-color: rgb(141, 49, 21);
+}
+
+.container .tasks{
+    width: 100%;
+}
+
+.container .item{
+    font-size: 17px;
+    display: flex;
+    background-color: rgb(68, 120, 226);
+    padding: 15px;
+    justify-content: right;
+    margin-bottom:15px;
+
+}
+.container .item p {
+    text-align: left;
+    width: 95%;
+}
+
+.container .item button {
+    text-align: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.container .item i{
+    margin-left: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.container .item .bi-check-circle-fill:hover{
+color: rgb(121, 238, 86);
+}
+.container .item .bi-trash-fill:hover{
+    color: rgb(227, 72, 63);
+}
+.complete {
+    text-decoration:line-through;
+}
